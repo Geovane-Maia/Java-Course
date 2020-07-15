@@ -58,3 +58,8 @@ local.properties
 # Remova o comentário desta linha se desejar ignorar o arquivo de descrição do projeto.
 # Normalmente, esse arquivo seria rastreado se contiver configurações de compilação / dependência:
 # .project
+Aplication/src/Domain/bin/*
+Aplication/src/Domain/obj/*
+
+Aplication/src/Domain/bin/
+Aplication/src/Domain/obj/
