@@ -15,6 +15,8 @@ public class ValorVsReferencia {
 		
 		Data d2 = d1;// atribuição por referência(Objeto)
 		
+		System.out.println(d2);
+		
 	}
 	
 }
