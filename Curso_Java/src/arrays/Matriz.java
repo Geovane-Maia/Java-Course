@@ -35,8 +35,6 @@ public class Matriz {
 			System.out.println(Arrays.toString(notasDoAluno));	
 		}
 		
-		
-		
 		entrada.close();
 	}
 }
