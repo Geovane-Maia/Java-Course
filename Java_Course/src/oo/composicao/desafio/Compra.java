@@ -12,6 +12,7 @@ public class Compra {
 	}
 	
 	void adcionarItem(String nome,double preco,int qtde) {
+		this.itens.add(new Item(new Produto( nome,preco),qtde));
 		 
 	}
 	
