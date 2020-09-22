@@ -2,7 +2,12 @@ package oo.heranca.desafio;
 
 public interface Luxo {
 	
-	void ligarArcondicionado();
-	void desligarArcondicionado();
+	public void ligarArcondicionado();
+	abstract void desligarArcondicionado();
+	
+	default int velocidadeDoAr() {
+		return 1;
+	}
+	
 
 }
